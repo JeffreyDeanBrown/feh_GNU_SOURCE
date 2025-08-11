@@ -40,7 +40,7 @@ CFLAGS ?= -g -O2
 CFLAGS += -Wall -Wextra -pedantic
 
 # Settings for glibc >= 2.19 - may need to be adjusted for other systems
-CFLAGS += -std=c11 -D_POSIX_C_SOURCE=200809L -D_XOPEN_SOURCE=700 -D_DARWIN_C_SOURCE
+CFLAGS += -std=c11 -D_POSIX_C_SOURCE=200809L -D_XOPEN_SOURCE=700 -D_DARWIN_C_SOURCE -D_GNU_C_SOURCE
 
 ifeq (${curl},1)
 	CFLAGS += -DHAVE_LIBCURL
