@@ -32,7 +32,6 @@ CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
  * requires _GNU_SOURCE to be defined.
  */
 #ifdef HAVE_STRVERSCMP
-#define _GNU_SOURCE
 #endif
 
 #include <X11/Xlib.h>
