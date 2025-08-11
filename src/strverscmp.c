@@ -21,7 +21,6 @@
  * SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
  */
 
-#define _GNU_SOURCE
 #include <ctype.h>
 #include <string.h>
 
